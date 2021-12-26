@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <img src="https://res.cloudinary.com/thefinalproject/image/upload/v1639747244/default_game.png" alt="logo_playbox" width="200" height="200" >
+    <h1>Bonjour <%= @user.first_name %> <%= @user.last_name %> et bienvenue chez nous !</h1>
+    <p>
+      Tu t'es inscrit sur Playbox en utilisant l'e-mail suivant : <%= @user.email %> <br/>
+      Tu pourras te reconnecter à cette adresse: <%= @url %> <br/>
+      Cela te permettra de retrouver, commander ou louer les différents jeux de notre catalogue ! <br/>
+      A bientôt chez Playbox !
+    </p>
+    
+  </body>
+</html>

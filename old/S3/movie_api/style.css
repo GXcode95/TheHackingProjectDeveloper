@@ -1,0 +1,30 @@
+.pop-up {
+  position: fixed;
+  top:5%;
+  left:10%;
+  width: 80%;
+  max-height: 90%;
+}
+.close-pop-up {
+  position:absolute;
+  top:0;
+  right:5px;
+}
+.hidden-left {
+  opacity: 0;
+  transform: translate(-100%, 0%);
+}
+.hidden-right {
+  opacity: 0;
+  transform: translate(100%, 0%);
+}
+.transition-1 {
+  transition: 1.5s;
+
+}
+.flex-center {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+}

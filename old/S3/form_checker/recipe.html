@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1></h1>
+
+  <form>
+    
+    <h2>Nom de la recette : </h2>
+    <input type="text" name="title" value="titre recette">
+    
+    <div id="ingredientWrap">
+      <h2>Ingrédients</h2>
+      <div class="flex ingredient">
+        <div>
+          <label for="">Nom</label><br />
+          <input type="text" name="ingredient" value="nom ingredient">
+        </div>
+        <br />
+        <div>
+          <label class="inputNum" for="">Quantité</label><br />
+          <input type="number" class="inputNum" value=5 name="quantity">
+        </div>
+        <div>
+          <label for="">Unité</label><br />
+          <select class="fs" name="unity">
+            <option value="dog">ml</option>
+            <option value="cat">cl</option>
+            <option value="hamster">l</option>
+            <option value="parrot">mg</option>
+            <option value="spider">g</option>
+            <option value="goldfish">kg</option>
+        </select>
+        </div>
+      </div>
+    </div>
+    
+    <button class="add-btn">Ajouter un ingrédient </button>
+
+    <h2>Instructions :</h2>
+    <div>
+      <input type="text" name="instructions" value="ici c'est les insrtuctions">
+    </div>
+    <h2> Cuisson :</h2>
+    <div class="flex">
+
+      <div>
+        <input class="inputNum" type="number" name="temperature" value="0">
+        <label class="inputNum" for="Temperature">degrée</label>
+      </div>
+      <div>
+        <input class="inputNum" type="number" name="time" value="0">
+        <label class="inputNum" for="time">minutes</label>
+      </div>
+    </div>
+    <button type="submit">Valider</button>
+  </form>
+
+  <script src="cookies.js"></script>
+</body>
+</html>

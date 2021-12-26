@@ -1,0 +1,47 @@
+
+.flex{
+  display:flex;
+}
+label {
+  text-align:center;
+}
+form {
+  width: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.inputNum {
+  width:70px;
+  text-align:center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+input {
+  font-size: 25px;
+}
+input[name="unity"] {
+  width: 160px;
+}
+.add-btn{
+  padding: 7px 12px;
+  margin-top: 20px;
+  background-color: rgb(75, 150, 100);
+  border:none;
+  color: white;
+  border-radius: 10px;
+  font-size:16px;
+}
+
+button[type="submit"]{
+  padding: 10px 19px;
+  margin-top: 20px;
+  background-color: rgb(75, 101, 150);
+  border:none;
+  color: white;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+.fs{
+  font-size:28px;
+}

@@ -1,0 +1,16 @@
+.Content {
+  transition: all 0.2s ease-in-out; 
+  height: 100vh;
+}
+.Content.go-light {
+  background: #f1f1f1;
+  color: #333;
+}
+.Content.go-dark{
+  background: #333;
+  color: #f1f1f1;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

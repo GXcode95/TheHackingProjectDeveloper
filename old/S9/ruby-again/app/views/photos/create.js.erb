@@ -1,0 +1,8 @@
+function create() {
+  let gallery = document.querySelector(`div[data-name="<%= @gallery.name %>"]`);
+  gallery.innerHTML = ""
+  gallery.insertAdjacentHTML("beforeend", "<%= j render 'photo', gallery: @gallery %>")
+}
+create()
+
+

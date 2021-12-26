@@ -1,0 +1,6 @@
+<% post.photos.each do |photo|%>
+  <div data-photo-id="<%= photo.id %>">
+    <%= link_to image_tag(photo, alt: "photo"), post_photo_path(post_id: post.id, id: photo.id) %>
+    <p><%= link_to "Supprimer", post_photo_path(post_id: post.id,id: photo.id), method: :delete, class: "btn btn-danger" %></p>
+  </div>
+<% end %>

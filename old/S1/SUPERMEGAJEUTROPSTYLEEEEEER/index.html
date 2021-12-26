@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <button class="go">Go</button>
+  <main>
+    <form class="w-100 h-100 flex-a-center flex-j-evenly flex-column">
+      <div class="flex-a-center flex-column input-name">
+        <label for="name" class="fs-7">Who are you ?</label><br/>
+        <input type="text" name="playerName" id="playerName" requiered>
+      </div>
+      <div>
+        <label for="class" class="fs-7">Choose a Class</label>
+      </div>
+
+      <div class="flex-j-center gap-5">
+        <div class="flex-center flex-column">
+          <img src="img/fighter.png" alt="figther" width="100" height="140"><br />
+          <input type="radio" id="fighter" name="class" checked>
+          <label for="fighter" class="fs-6">Fighter</label>
+        </div>
+        
+        <div class="flex-center flex-column">
+          <img src="img/paladin.png" alt="paladin width="100" height="140"><br />
+          <input type="radio" id="paladin" name="class">
+          <label for="paladin" class="fs-6">Paladin</label>
+        </div>
+        
+        
+        <div class="flex-center flex-column">
+          <img src="img/assassin.png" alt="assassin" width="100" height="140"><br />
+          <input type="radio" id="assassin" name="class">
+          <label for="assassin" class="fs-6">Assassin</label>
+        </div>
+        
+        <div class="flex-center flex-column">
+          <img src="img/monk.png" alt="monk" width="100" height="140"><br />
+          <input type="radio" id="monk" name="class">
+          <label for="monk" class="fs-6">Monk</label>
+        </div>
+        
+        <div class="flex-center flex-column">
+          <img src="img/berzerker.png" alt="berzerker" width="100" height="140"><br />
+          <input type="radio" id="berzerker" name="class">
+          <label for="berzerker" class="fs-6">Berzerker</label>
+        </div>
+        
+        <div class="flex-center flex-column">
+          <img src="img/wizard.png" alt="wizard" width="100" height="140"><br />
+          <input type="radio" id="wizard" name="class">
+          <label for="wizard" class="fs-6">Wizard</label>
+        </div>
+        
+        <div class="flex-center flex-column">
+          <img src="img/gambler.png" alt="gambler" width="100" height="140"><br />
+          <input type="radio" id="gambler" name="class">
+          <label for="gambler" class="fs-6">Gambler</label>
+        </div>
+
+      </div>
+      <div>
+        <input type ="button" value="Let's Go" class="start-btn fs-6">
+      </div>
+
+
+    </form>
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="character.js"></script>
+  <script src="assassin.js"></script>
+  <script src="berzerker.js"></script>
+  <script src="fighter.js"></script>
+  <script src="monk.js"></script>
+  <script src="paladin.js"></script>
+  <script src="wizard.js"></script>
+  <script src="gambler.js"></script>
+  <script src="board.js"></script>
+  <script src="game.js"></script>
+
+  <script src="turn.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

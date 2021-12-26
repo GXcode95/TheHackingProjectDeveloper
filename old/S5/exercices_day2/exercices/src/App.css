@@ -1,0 +1,32 @@
+h1 {
+  color: #0000ff;
+}
+
+.colors { 
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.red {
+  background: red;
+  height: 250px;
+}
+
+.blue {
+  height: 250px;
+  background: blue;
+}
+
+.green {
+  height: 250px;
+  background: green;
+}
+
+.pink {
+  height: 250px;
+  background: pink;
+}
+
+.color-red {
+  color: red;
+}
